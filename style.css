@@ -1,0 +1,151 @@
+*{
+    font-family: montserrat;
+}
+
+.bg-light{
+    background-color: transparent !important;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background:darkorange ;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #000;
+    margin-top: 15px;
+}
+.nav-bar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    background:rgb(0,0,0,0.1);
+}
+    
+.w-100{
+    height: 100vh;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+
+@media only screen and(max-width:767px){
+    .navbar-nav{
+        text-align:center ;
+        background:rgba(0,0,0,0.5) ;
+    }
+
+
+.carousel-caption{
+    bottom: 165px;
+}
+
+.carousel-caption h5{
+    font-size: 17px;
+}
+
+.carousel-caption a{
+    padding: 10px 15px;
+}
+
+}
+
+/* comtact us */
+.container{
+    width: 1000px! important;
+    background-image:url(./IMG_6910.JPG)
+}
+p{
+    font-size: 12px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-primary{
+    background-color:rgb(120, 217, 120) !important ;
+}
+.form-control{
+    height: 36px;
+    background: #f4f4f4;
+    color: rgba(0,0,0,0.1);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none!important;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.contactform .form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+.form-control:focus, .form-control:active{
+    border-color:rgb(120, 217, 120) !important;
+}
+.btn-primary{
+    background:rgb(120, 217, 120) !important;
+    border-color: rgb(120, 217, 120) !important;
+    color: #fff;
+    width: 100px;
+    border-radius: 0 !important;
+}
+
+.btn-primary:hover{
+    background-color:rgb(120, 217, 120) ;
+}
+.bi{
+    font-size: 50px;
+}
+
+@media only screen and(max-width:600px){
+    .container{
+        width: 100% !important;
+        padding-bottom: 207px !important;
+    }
+}
+
+
+/* giveonline */
+
+
+.container-b{
+    background-image: url(./IMG_6912.JPG);
+}
